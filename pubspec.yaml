@@ -1,0 +1,29 @@
+name: desktop_sorter_flutter
+description: Tray-based desktop file sorter rewritten in Flutter/Dart.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  args: ^2.7.0
+  file_picker: ^10.1.9
+  path: ^1.9.1
+  system_tray: ^2.0.3
+  toml: ^0.16.0
+  window_manager: ^0.5.1
+  win32: ^5.15.0
+  ffi: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.png

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo build)",
+      "Bash(cargo search tray-menu)",
+      "Bash(cargo info tray-menu)",
+      "Bash(cargo info tray)"
+    ]
+  }
+}
